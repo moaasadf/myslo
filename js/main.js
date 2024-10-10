@@ -142,7 +142,7 @@
     }
     if (panels[0].isSeven() && panels[1].isSeven() && panels[2].isSeven()) {
       // 揃った場合、クレジットを増加させる
-      credit += 50; // 例: 10枚のクレジットを追加
+      credit += 10; // 例: 10枚のクレジットを追加
       updateCreditDisplay(); // クレジット表示を更新
       alert("ジャンジャンバリバリ");
     }
